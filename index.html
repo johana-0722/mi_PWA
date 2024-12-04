@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>PORTAFOLIO PERSONAL</title>
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <h1><span class="cuadro"></span>JOHANA ELIZABETH CALZADA RAMIREZ </h1>
+        <nav class="" id="nav">
+            <ul>
+                <li>
+                    <a href="#inicio" onclick="abrirCerrarMenu()">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobremi" onclick="abrirCerrarMenu()">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#proyectos" onclick="abrirCerrarMenu()">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contacto" onclick="abrirCerrarMenu()">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <button onclick="abrirCerrarMenu()"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    <!-- sección inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    
+                    <div class="info">
+                        <h2>Hola soy Johana  <br>Este es mi portafolio en la cual te hablare sobre mi, sobre lo que soy y se. </h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/profesional_Photo.jpg" alt="" class="center" width="350" height="350">
+                </div>
+                <div class="col derecha">
+                    <h3>ME ESPECIALIZO EN CREAR PROYECTOS DE DESARROLLO DE SOFTWARE DE CALIDAD</h3>
+                    <p>Los proyectos que he realizado me han dejado una gran enseñanza,.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- sección sobre mi -->
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <h2 class="titulo-seccion">Sobre <span class="resaltado">mí</span></h2>
+                    <h2>Hola, soy Johana</h2>
+                    <p>Una desarrolladora web profesional de Tecnologías de la Información con sólida formación académica en Tecnologias de la información. Campos donde me desempeño: programación, redes,seguridad informática, he demostrado mis habilidades en mis proyectos academicos.
+                        Apasionado por la innovación, mi enfoque proactivo y habilidades técnicas sólidas me posicionan como una candidata ideal para contribuir al éxito de proyectos en un entorno dinámico y de rápido cambio.</p>
+
+                    <div class="skills">
+                        <p> <span class="punto"></span> Desarrollo Web</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="dw">
+                                <span>90%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Diseño Gráfico</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="dg">
+                                <span>95%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Bases de Datos</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="bd">
+                                <span>80%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span>Marketing Digital</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="md">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="img/Currículum Vitae .pdf" download="Mi_CV.pdf">
+                        <button class="btn-primary">Descargar CV</button>
+                    </a>
+                </div>
+                <div class="col">
+                    <img src="img/Foto2.jpg" alt="" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección cursos -->
+    <section id="proyectos">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Proyectos <span class="resaltado">destacados</span></h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="numero-curso">
+                        .01
+                    </div>
+                    <h3 class="titulo-curso">
+                        PROYECTO <span class="resaltado">01</span>
+                    </h3>
+                    <hr>
+                    <div class="imagen-container">
+                        <img class="imagen-curso" src="img/yuyuDesign.png" alt="Proyecto 03">
+                    </div>
+                    <p>Es un sitio web desarrollado con php es para una tienda de ropa para toda tipo de personas.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-curso">
+                        .02
+                    </div>
+                    <h3 class="titulo-curso">
+                        PROYECTO <span class="resaltado">02</span>
+                    </h3>
+                    <hr>
+                    <div class="imagen-container">
+                        <img class="imagen-curso" src="img/zapat0_kandy.jpg" alt="Proyecto 02">
+                    </div>
+                    <p>Este proyecto lo desarrolle con flutter y es una aplicacion para una zapateria.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-curso">
+                        .03
+                    </div>
+                    <h3 class="titulo-curso">
+                        PROYECTO <span class="resaltado">03</span>
+                    </h3>
+                    <hr>
+                    <div class="imagen-container">
+                        <img class="imagen-curso" src="img/api_rutna.jpg" alt="Proyecto 03">
+                    </div>
+                    <p>Es una aplicacionde generador de tickets para la universidad, fue desarrollada con react native y android studio.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-curso">
+                        .04
+                    </div>
+                    <h3 class="titulo-curso">
+                        PROYECTO <span class="resaltado">04</span>
+                    </h3>
+                    <hr>
+                    <div class="imagen-container">
+                        <img class="imagen-curso" src="img/Receta_flutter.jpg" alt="Proyecto 03">
+                    </div>
+                    <p>Esta aplicacion la desarrolle con flutter es solo un crud en la cual se registran recetas de comida.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+
+            </div>
+            <div class="fila">
+            </div>
+        </div>
+    </section>
+
+    <!-- sección subscripción -->
+    <section id="contacto">
+        <img src="img/Foto4.jpg" class="img-subs" >
+        <div class="contenido">
+            <form action="">
+                <h2 class="titulo-seccion">Contactame <br> <span class="resaltado subir"> ahora mismo</span></h2>
+                <p>Mandame cualquier duda que tengas sobre mi.</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="contenido">
+            <div class="col">
+                <h3>Johana Calzada </h3>
+                <ul>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Equipo de trabajo</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <div class="redes">
+                    <p>Sigueme y Agregame</p>
+                    <a href="https://www.facebook.com/profile.php?id=100086339799925&mibextid=ZbWKwL" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jhaelycalzada?igsh=OWlheHZtejBsejg1" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/johana-elizabeth-calzada-ramirez-9aa6a02b4/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/524651268321" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+              console.log("Service Worker registrado con éxito:", registration);
+            })
+            .catch((error) => {
+              console.log("Error al registrar el Service Worker:", error);
+            });
+        }
+      </script>
+</body>
+</html>
