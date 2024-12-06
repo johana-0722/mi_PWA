@@ -400,82 +400,10 @@ header button{
     margin-bottom: 20px;
 }
 
-/* sección NUMEROS */
-#numeros{
-    background-color: #1d1d1d;
-    padding: 50px 10px;
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
-}
-#numeros .fila{
-    display: flex;
-    justify-content: space-evenly;
-}
-#numeros .fila .col{
-    display: flex;
-    align-items: center;
-}
-#numeros .fila .col .mas{
-    font-size: 40px;
-    color: #a35ff9;
-    display: block;
-}
-#numeros .fila .col .num{
-    width: 40px;
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0 15px 0 0px;
-}
 
 
-/* sección clientes */
-#clientes{
-    padding: 50px 10px;
-}
-#clientes .contenido .fila{
-    display: flex;
-    justify-content: space-between;
-}
-#clientes .contenido .fila .col{
-    width: 50%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#clientes .contenido .fila .col img{
-    width: 350px;
-}
-.subir{
-    width: 350px;
-    position: relative;
-    top: -20px;
-}
-#clientes .contenido .fila .col-historia .cliente{
-    display: flex;
-    margin-bottom: 20px;
-}
-#clientes .contenido .fila .col-historia .cliente img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    filter: grayscale();
-    margin-right: 20px;
-}
-#clientes .contenido .fila .col-historia .cliente h3{
-    font-size: 15px;
-}
-#clientes .contenido .fila .col-historia .cliente i{
-    font-size: 10px;
-    color: #fff;
-}
-.relleno{
-    color: #a35ff9 !important;
-}
-#clientes .contenido .fila .col-historia .cliente p{
-    font-size: 12px;
-    font-style: italic;
-}
+
+
 /* sección contacto */
 #contacto {
     padding: 50px 10px 100px; /* Asegura espacio extra en la parte inferior */
